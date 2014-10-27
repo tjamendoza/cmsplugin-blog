@@ -24,6 +24,7 @@ class Redirect(Exception):
         
 class DateDetailView(SingleObjectTemplateResponseMixin, BaseDateDetailView):
     # Override to fix django bug
+    allow_future = True
     def get_object(self, queryset=None):
         """
         Get the object this request displays.
