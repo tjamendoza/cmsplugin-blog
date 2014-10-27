@@ -20,7 +20,7 @@ setup(
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.txt')).read(),
     author='Oyvind Saltvik',
     author_email='oyvind.saltvik@gmail.com',
-    url='http://github.com/fivethreeo/cmsplugin-blog/',
+    url='http://github.com/tjamendoza/cmsplugin-blog/',
     packages=find_packages(),
     package_data={
         'cmsplugin_blog': [
